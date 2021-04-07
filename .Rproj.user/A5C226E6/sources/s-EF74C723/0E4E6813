@@ -3,7 +3,7 @@
     "path": "C:/Users/malte/Dropbox/sfecol/R/sfecol.R",
     "project_path": "R/sfecol.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "3113597845",
     "contents": "",
     "dirty": false,
     "created": 1617831205068.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "5,3",
+        "cursorPosition": "5,2",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1617831308,
+    "lastKnownWriteTime": 1617831512,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1617831308663,
+    "last_content_update": 1617831512983,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -1,3 +1,5 @@
+#' @title sfecol
+#' @description Color palettes based on the San Francisco Estuary
 #' Complete list of palettes
 #'
 #' These are colour palettes derived from photos of birds native to New Zealand. Use \code{\link{get_pal}} extract palettes.
