@@ -39,3 +39,11 @@ The data for the graphs shown below come from the California Department of Fish 
 c("#304247", "#D1D0B3", "#828D6D", "#8DBA71", "#92A2AF")
 ```
 <img src="images/delsme.png" width=80%/>
+Image: The Delta Smelt has a typical cucumber smell to it. Photo by Peterson, B. Moose, U.S. Fish and Wildlife Service.
+
+### chinook - *Oncorhynchus tshawytscha* - Chinook Salmon
+```r
+c("#8AA0BF", "#243158", "#543D4A", "#D8D9E4", "#715E4D")
+```
+<img src="images/chinook.png" width=80%/>
+Image: A winter run Chinook Salmon in Battle Creek, CalTrout (https://caltrout.org/). Photo by Jane Work.
