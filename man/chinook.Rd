@@ -14,6 +14,7 @@ An object of class \code{"data.frame"}
 \item{Run}{Run type}
 \item{Escapement}{Total escapement estimate}
 }
+}
 \usage{
 data(chinook)
 }
