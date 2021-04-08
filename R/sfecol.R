@@ -31,3 +31,17 @@ get_pal <- function(name) {
 
   pal
 }
+
+#' Plots a color palette
+#'
+#' @param x a vector of colors
+#' @export
+#' @importFrom graphics par image
+print_pal <- function(x, ...) {
+  n <- length(x)
+  old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
+  on.exit(par(old))
+
+  image(1:n, 1, as.matrix(1:n), col = x,
+        ylab = "", xaxt = "n", yaxt = "n", bty = "n")
+}
