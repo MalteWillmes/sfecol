@@ -6,11 +6,11 @@
 #'
 #' @export
 sfe_palettes <- list(
-  delsme = c("#304247", "#D1D0B3", "#828D6D", "#8DBA71", "#92A2AF"),
-  chinook = c("#8AA0BF", "#243158", "#543D4A", "#D8D9E4", "#715E4D"),
-  chinookcarc=  c("#C8C3B5", "#2B2F2A", "#837C32", "#727877", "#634933"),
-  southbay =  c("#727467", "#97CFCB", "#D5A54C", "#1F2F3D", "#801F23"),
-  baslu =  c("#6D7126", "#D0C56E", "#122006", "#AEB953", "#9B9899")
+  delsme = c("#304247", "#D1D0B3", "#828D6D", "#8DBA71", "#92A2AF","#447484"),
+  chinook = c("#899FBF", "#243158", "#543D4A", "#D8D9E4", "#715E4D", "#C0D5F0"),
+  chinookcarc=  c("#CDC9C0", "#2B2F2A", "#837C32", "#727877", "#634933", "#A89C6B"),
+  southbay =  c("#727467", "#97CFCB", "#D5A54C", "#1F2F3D", "#801F23", "#633F47"),
+  baslu =  c("#6F7527", "#D0C56E", "#122006", "#AEB953","#3F2D0F","#9B9899")
 )
 
 #' Select SFE color palette
