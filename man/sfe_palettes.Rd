@@ -3,7 +3,7 @@
 \docType{data}
 \name{sfe_palettes}
 \alias{sfe_palettes}
-\title{Color palettes based on the San Francisco Estuary}
+\title{Color palettes based on the San Francisco Estuary.}
 \format{
 An object of class \code{list} of length 5.
 }
