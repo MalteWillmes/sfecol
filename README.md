@@ -38,4 +38,4 @@ The data for the graphs shown below come from the California Department of Fish 
 ```r
 c("#304247", "#D1D0B3", "#828D6D", "#8DBA71", "#92A2AF")
 ```
-<img src="images/delsme.jpg" width=50%/>
+<img src="images/delsme.png" width=80%/>
