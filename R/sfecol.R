@@ -7,16 +7,18 @@
 #' @export
 sfe_palettes <- list(
   delsme = c("#304247", "#D1D0B3", "#828D6D", "#8DBA71", "#92A2AF"),
-  chinook = c("#CABEE9", "#7C7189", "#FAE093", "#D04E59", "#BC8E7D", "#2F3D70"),
+  chinook = c("#8AA0BF", "#243158", "#543D4A", "#D8D9E4", "#715E4D"),
   chinookcarc=  c("#C8C3B5", "#2B2F2A", "#837C32", "#727877", "#634933"),
-  southbay =  c("#A7473A", "#4B5F6C", "#B09B37", "#955F47", "#A8B9CB")
+  southbay =  c("#727467", "#97CFCB", "#D5A54C", "#1F2F3D", "#801F23"),
+  baslu =  c("#6D7126", "#D0C56E", "#122006", "#AEB953", "#9B9899")
 )
 
 #' Select SFE color palette
 #'
 #' This function returns color palettes derived from photos of the San Francisco Estuary and its wildlife
 #'
-#' @param name Name of desired palette. Choices are: \code{delsme}, \code{chinook},  \code{chinookcarc}, and \code{southbay}
+#' @param name Name of desired palette. Choices are: \code{delsme}, \code{chinook},  \code{chinookcarc}, \code{southbay},
+#' and \code{baslu}
 #'
 #' @return A vector of colors.
 #' @export
@@ -25,6 +27,7 @@ sfe_palettes <- list(
 #' get_pal("chinook")
 #' get_pal("chinookcarc")
 #' get_pal("southbay")
+#' get_pal("baslu")
 #'
 sfe_pal <- function(name) {
 
