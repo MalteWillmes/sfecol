@@ -11,10 +11,8 @@ An object of class \code{list} of length 3.
 sfe_palettes
 }
 \description{
-Color palettes based on the San Francisco Estuary
-}
-\examples{
-data()
-
+Color palettes based on the San Francisco Estuary. Use \code{\link{get_pal}} extract palettes.
+Package based on the excellent manu package (https://g-thomson.github.io/Manu/) by Dr Tara McAllister and Karthik Ram
+Complete list of palettes
 }
 \keyword{datasets}
