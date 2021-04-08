@@ -47,3 +47,24 @@ c("#8AA0BF", "#243158", "#543D4A", "#D8D9E4", "#715E4D")
 ```
 <img src="images/chinook.png" width=80%/>
 Image: A winter run Chinook Salmon in Battle Creek, CalTrout (https://caltrout.org/). Photo by Jane Work.
+
+### chinookcarc - *Oncorhynchus tshawytscha* - Chinook Salmon carcass on Putah Creek
+```r
+c("#C8C3B5", "#2B2F2A", "#837C32", "#727877", "#634933")
+```
+<img src="images/chinookcarc.png" width=80%/>
+Image: A Chinook Salmon carcass on Putah Creek. Photo by Ken Davis.
+
+### southbay  - Soutbay Salt Ponds
+```r
+c("#727467", "#97CFCB", "#D5A54C", "#1F2F3D", "#801F23"),
+```
+<img src="images/southbay.png" width=80%/>
+Image: Bird's-eye view of the multi-colored salt ponds, Photo by Doc Searls from Santa Barbara, USA. 
+
+### baslu - *Ariolimax columbianus* - Banana slug
+```r
+c("#6D7126", "#D0C56E", "#122006", "#AEB953", "#9B9899")
+```
+<img src="images/baslu.png" width=80%/>
+Image: A banana slug. Photo by Ben Stanfield.
