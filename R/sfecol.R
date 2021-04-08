@@ -6,8 +6,9 @@
 #'
 #' @export
 sfe_palettes <- list(
-  smelt = c("#070604", "#F9E211", "#797A87", "#A8ACAD", "#D6CBB5"),
+  delsme = c("#304247", "#D1D0B3", "#828D6D", "#8DBA71", "#92A2AF"),
   chinook = c("#CABEE9", "#7C7189", "#FAE093", "#D04E59", "#BC8E7D", "#2F3D70"),
+  chinookcarc=  c("#C8C3B5", "#2B2F2A", "#837C32", "#727877", "#634933"),
   southbay =  c("#A7473A", "#4B5F6C", "#B09B37", "#955F47", "#A8B9CB")
 )
 
@@ -15,15 +16,17 @@ sfe_palettes <- list(
 #'
 #' This function returns color palettes derived from photos of the San Francisco Estuary and its wildlife
 #'
-#' @param name Name of desired palette. Choices are: \code{smelt}, \code{chinook}, and \code{southbay}
+#' @param name Name of desired palette. Choices are: \code{delsme}, \code{chinook},  \code{chinookcarc}, and \code{southbay}
 #'
-#' @return A vector of colours.
+#' @return A vector of colors.
 #' @export
 #' @examples
-#' get_pal("smelt")
+#' get_pal("delsme")
 #' get_pal("chinook")
+#' get_pal("chinookcarc")
 #' get_pal("southbay")
-get_pal <- function(name) {
+#'
+sfe_pal <- function(name) {
 
   pal <- sfe_palettes[[name]]
   if (is.null(pal))
