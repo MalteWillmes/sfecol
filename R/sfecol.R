@@ -1,5 +1,5 @@
-#' @title sfecol
-#' @description Color palettes based on the San Francisco Estuary. Use \code{\link{sfe_pal}} extract palettes.
+#' @title Color palettes based on the San Francisco Estuary
+#' @description This package provides color palettes based on images from the San Francisco Estuary. Use \code{\link{sfe_pal}} extract palettes.
 #' Package based on the excellent manu package (https://g-thomson.github.io/Manu/) by Dr Tara McAllister and Karthik Ram
 #' Complete list of palettes
 #'
