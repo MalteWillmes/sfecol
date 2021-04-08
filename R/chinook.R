@@ -15,3 +15,4 @@
 #' data(chinook)
 #' head(chinook)
 #'
+"chinook"
