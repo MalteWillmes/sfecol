@@ -51,3 +51,6 @@ print_pal <- function(x, ...) {
   image(1:n, 1, as.matrix(1:n), col = x,
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
 }
+
+
+
