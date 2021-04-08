@@ -5,7 +5,7 @@
 \alias{sfe_palettes}
 \title{sfecol}
 \format{
-An object of class \code{list} of length 4.
+An object of class \code{list} of length 5.
 }
 \usage{
 sfe_palettes
