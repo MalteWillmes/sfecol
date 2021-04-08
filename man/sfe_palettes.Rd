@@ -5,15 +5,16 @@
 \alias{sfe_palettes}
 \title{sfecol}
 \format{
-An object of class \code{list} of length 19.
+An object of class \code{list} of length 3.
 }
 \usage{
 sfe_palettes
 }
 \description{
 Color palettes based on the San Francisco Estuary
-Complete list of palettes
+}
+\examples{
+data()
 
-These are colour palettes derived from photos of birds native to New Zealand. Use \code{\link{get_pal}} extract palettes.
 }
 \keyword{datasets}
