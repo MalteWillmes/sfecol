@@ -4,8 +4,7 @@ Title: Color palettes based on the San Francisco Estuary.
 Version: 0.1.0
 Author: Malte Willmes
 Maintainer: malte.willmes@gmail.com
-Description: Color palettes based on various images from the San Francisco Estuary and the wildlife that resides here. 
-    Colors were extracted using https://colordesigner.io/color-palette-from-image
+Description: Color palettes based on various images from the San Francisco Estuary and the wildlife that resides here. Colors were extracted using https://colordesigner.io/color-palette-from-image
 License: GNU GENERAL PUBLIC LICENSE Version 3
 Encoding: UTF-8
 LazyData: true
