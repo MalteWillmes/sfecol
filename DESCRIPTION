@@ -2,12 +2,18 @@ Package: sfecol
 Type: Package
 Title: Color palettes based on the San Francisco Estuary.
 Version: 0.1.0
-Author: Malte Willmes
-Maintainer: malte.willmes@gmail.com
+Authors@R: 
+    person(given = "Malte",
+           family = "Willmes",
+           role = c("aut", "cre"),
+           email = "malte.willmes@gmail.com",
+           comment = c(Twitter = "@Rocksandbones"))
+
 Description: Color palettes based on various images from the San Francisco Estuary and the wildlife that resides here. Colors were extracted using https://colordesigner.io/color-palette-from-image
 License: GNU GENERAL PUBLIC LICENSE Version 3
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 URL: https://github.com/MalteWillmes/sfecol
 BugReports: https://github.com/MalteWillmes/sfecol/issues
