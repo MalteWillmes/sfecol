@@ -9,7 +9,7 @@ A simplified version of the Chinook Salmon Escapement estimates for California's
 Total escapement includes hatchery and in-river fish.}
 \format{
 An object of class \code{"data.frame"}
-#' \describe{
+\describe{
 \item{year}{A value between 1967 and 2019}
 \item{Run}{Run type}
 \item{Escapement}{Total escapement estimate}
@@ -24,7 +24,6 @@ A simplified version of the Chinook Salmon Escapement estimates for California's
 Total escapement includes hatchery and in-river fish.
 }
 \examples{
-
 data(chinook)
 head(chinook)
 
