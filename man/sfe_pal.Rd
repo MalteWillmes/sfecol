@@ -8,19 +8,19 @@ sfe_pal(name)
 }
 \arguments{
 \item{name}{Name of desired palette. Choices are: \code{delsme}, \code{chinook},  \code{chinookcarc}, \code{southbay},
-and \code{baslu}}
+\code{baslu}}
 }
 \value{
 A vector of colors.
 }
 \description{
-This function returns color palettes derived from photos of the San Francisco Estuary and its wildlife
+This function returns color palettes derived from photos of the San Francisco Estuary.
 }
 \examples{
-get_pal("delsme")
-get_pal("chinook")
-get_pal("chinookcarc")
-get_pal("southbay")
-get_pal("baslu")
+sfe_pal("delsme")
+sfe_pal("chinook")
+sfe_pal("chinookcarc")
+sfe_pal("southbay")
+sfe_pal("baslu")
 
 }
