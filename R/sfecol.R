@@ -1,5 +1,5 @@
 #' @title sfecol
-#' @description Color palettes based on the San Francisco Estuary. Use \code{\link{get_pal}} extract palettes.
+#' @description Color palettes based on the San Francisco Estuary. Use \code{\link{sfe_pal}} extract palettes.
 #' Package based on the excellent manu package (https://g-thomson.github.io/Manu/) by Dr Tara McAllister and Karthik Ram
 #' Complete list of palettes
 #'
@@ -23,11 +23,11 @@ sfe_palettes <- list(
 #' @return A vector of colors.
 #' @export
 #' @examples
-#' get_pal("delsme")
-#' get_pal("chinook")
-#' get_pal("chinookcarc")
-#' get_pal("southbay")
-#' get_pal("baslu")
+#' sfe_pal("delsme")
+#' sfe_pal("chinook")
+#' sfe_pal("chinookcarc")
+#' sfe_pal("southbay")
+#' sfe_pal("baslu")
 #'
 sfe_pal <- function(name) {
 
