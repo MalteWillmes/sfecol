@@ -1,45 +1,32 @@
-# sfecol
-Colors of the San Francisco Estuary
-
-# Manu <img src="man/figures/LOGO.jpg" align="right" width="180"/>
+# sfecol - Colors of the San Francisco Estuary
 ***
-New Zealand is home to a great number of native bird species, a majority being endemic to the islands. Many of these species are notable for their bright and beautiful plumage. 
-
-Using photos of birds native to New Zealand, this `R` package contains a selection of colour palettes constructed by extracting distinct colours characteristic of these birds. 
-
-This package was the idea of Dr Tara McAllister ([@taramcallister4](https://twitter.com/taramcallister4)) and is implemented like the<br/> [`wesanderson`](https://github.com/karthik/wesanderson) colour palette package, created by Karthik Ram ([@_inundata](https://twitter.com/_inundata)).  
-
-<img src="man/figures/In_a_tree.jpg" width=75%/>
-<p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://www.flickr.com/photos/60164380@N03/48549024571/in/album-72157647281732710/">"Kererū"</a> contributed by <a href="https://www.flickr.com/photos/60164380@N03/albums/72157647281732710/with/48549024571/">Tony Stoddard</a> of <a href="https://kererudiscovery.org.nz/">KererūDiscovery</a> (<a href="https://twitter.com/KereruDiscovery">@KereruDiscovery</a>)</p>
-
+The San Francisco Estuary is a complex watershed and home to many different species of wildlife. This `R` package uses images of the landscape and wildlife to create color palletes. Colors are extracted from images using https://colordesigner.io/color-palette-from-image and the package follows the excellent work of the [`Manu`](https://g-thomson.github.io/Manu) and [`wesanderson`](https://github.com/karthik/wesanderson) packages.
+ 
 ## Installation
 ***
-This package is hosted on Github and can install it using the `devtools` (>= v2.3.2) package:
-
+This package is hosted on Github and can install it using the `devtools` package:
 ``` r
 # install.packages("devtools")
-devtools::install_github("G-Thomson/Manu")
+devtools::install_github("MalteWillmes/sfecol")
 ```
-(Note: If this doesn't work, update `devtools` as Github recently changed the term it uses for the primary version of a source code repository)
+
 ## Usage
 ***
 The colour palettes are stored as a list named `manu_palettes`. Thus you can see a list of the available palettes like so:
 ```r
-library(Manu)
-names(manu_palettes)
- [1] "Hihi"         "Hoiho"        "Kaka"         "Kakapo"       "Kakariki"     "Kea"          "Kereru"       "Kereru_orig"  "Korimako"    
-[10] "Korora"       "Kotare"       "Putangitangi" "Takahe"       "Takapu"       "Titipounamu"  "Tui"          "Pepetuna"     "Pohutukawa"  
+library(sfecol)
+names(sfe_palettes)
+[1] "delsme"      "chinook"     "chinookcarc" "southbay"    "baslu"   
 ```
 
-A helper function `get_pal()` returns the desited colour palette as a vector: For example:
+A helper function `sfe_pal()` returns the desited colour palette as a vector: For example:
 ```r
-get_pal("Hihi")
-[1] "#070604" "#F9E211" "#797A87" "#A8ACAD" "#D6CBB5"
+sfe_pal("delsme")
+[1] "#304247" "#D1D0B3" "#828D6D" "#8DBA71" "#92A2AF"
 ```
 There is also a helper function called `print_pal()` which displays the palette in the graphics window.
 ```r
-hoiho <- get_pal("Hoiho")
-print_pal(hoiho)
+print_pal(sfe_pal("delsme"))
 ```
 <img src="man/figures/hoiho_palette.jpeg" width=75%/>
 
