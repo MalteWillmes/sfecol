@@ -8,7 +8,6 @@ Authors@R:
            role = c("aut", "cre"),
            email = "malte.willmes@gmail.com",
            comment = c(Twitter = "@Rocksandbones"))
-
 Description: Color palettes based on various images from the San Francisco Estuary and the wildlife that resides here. Colors were extracted using https://colordesigner.io/color-palette-from-image
 License: GNU GENERAL PUBLIC LICENSE Version 3
 Encoding: UTF-8
