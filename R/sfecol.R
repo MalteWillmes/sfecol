@@ -15,10 +15,10 @@ sfe_palettes <- list(
 
 #' Select SFE color palette
 #'
-#' This function returns color palettes derived from photos of the San Francisco Estuary and its wildlife
+#' This function returns color palettes derived from photos of the San Francisco Estuary.
 #'
 #' @param name Name of desired palette. Choices are: \code{delsme}, \code{chinook},  \code{chinookcarc}, \code{southbay},
-#' and \code{baslu}
+#' \code{baslu}
 #'
 #' @return A vector of colors.
 #' @export
