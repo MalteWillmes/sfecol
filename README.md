@@ -28,7 +28,7 @@ There is also a helper function called `print_pal()` which displays the palette 
 ```r
 print_pal(sfe_pal("delsme"))
 ```
-<img src="images/delsme_palette.jpeg" width=100%/>
+<img src="images/delsme_palette.jpeg" width=50%/>
 
 ## Colour palettes
 ***
@@ -38,4 +38,4 @@ The data for the graphs shown below come from the California Department of Fish 
 ```r
 c("#304247", "#D1D0B3", "#828D6D", "#8DBA71", "#92A2AF")
 ```
-<img src="images/delsme.jpg"/>
+<img src="images/delsme.jpg" width=50%/>
