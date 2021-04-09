@@ -28,7 +28,7 @@ There is also a helper function called `print_pal()` which displays the palette 
 ```r
 print_pal(sfe_pal("delsme"))
 ```
-<img src="images/delsme_palette.png" height=50%/>
+<img src="images/delsme_palette.png" widht=30%/>
 
 Since the `get_pal()` function returns the colour palettes as a character vector they can easily be used in the graphics package of your choice. Here are examples in both base `R` and [`ggplot2`](https://ggplot2.tidyverse.org/).
 ```r
@@ -52,33 +52,33 @@ Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarct
 ```r
 c("#304247", "#D1D0B3", "#828D6D", "#8DBA71", "#92A2AF","#447484")
 ```
-<img src="images/delsme.png" width=80%/>
+<img src="images/delsme.png" width=100%/>
 Image: The Delta Smelt has a typical cucumber smell to it. Photo by Peterson, B. Moose, U.S. Fish and Wildlife Service.
 
 ### chinook - *Oncorhynchus tshawytscha* - Chinook Salmon
 ```r
 c("#899FBF", "#243158", "#543D4A", "#D8D9E4", "#715E4D", "#C0D5F0")
 ```
-<img src="images/chinook.png" width=80%/>
+<img src="images/chinook.png" width=100%/>
 Image: A winter run Chinook Salmon in Battle Creek, CalTrout (https://caltrout.org/). Photo by Jane Work.
 
 ### chinookcarc - *Oncorhynchus tshawytscha* - Chinook Salmon carcass on Putah Creek
 ```r
 c("#CDC9C0", "#2B2F2A", "#837C32", "#727877", "#634933", "#A89C6B")
 ```
-<img src="images/chinookcarc.png" width=80%/>
+<img src="images/chinookcarc.png" width=100%/>
 Image: A Chinook Salmon carcass on Putah Creek. Photo by Ken Davis.
 
 ### southbay  - Soutbay Salt Ponds
 ```r
 c("#727467", "#97CFCB", "#D5A54C", "#1F2F3D", "#801F23", "#633F47")
 ```
-<img src="images/southbay.png" width=80%/>
+<img src="images/southbay.png" width=100%/>
 Image: Bird's-eye view of the multi-colored salt ponds, Photo by Doc Searls from Santa Barbara, USA. 
 
 ### baslu - *Ariolimax columbianus* - Banana slug
 ```r
 c("#6F7527", "#D0C56E", "#122006", "#AEB953","#3F2D0F","#9B9899")
 ```
-<img src="images/baslu.png" width=80%/>
+<img src="images/baslu.png" width=100%/>
 Image: A banana slug. Photo by Ben Stanfield.
