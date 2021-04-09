@@ -13,14 +13,14 @@ devtools::install_github("MalteWillmes/sfecol")
 
 ## Usage
 ***
-The colour palettes are stored as a list named `sfe_palettes`. Thus you can see a list of the available palettes like so:
+The color palettes are stored as a list named `sfe_palettes`. Thus you can see a list of the available palettes like so:
 ```r
 library(sfecol)
 names(sfe_palettes)
 [1] "delsme" "chinook" "chinookcarc" "southbay" "baslu"   
 ```
 
-A helper function `sfe_pal()` returns the desited colour palette as a vector: For example:
+A helper function `sfe_pal()` returns the desited color palette as a vector: For example:
 ```r
 sfe_pal("delsme")
 [1] "#304247" "#D1D0B3" "#828D6D" "#8DBA71" "#92A2AF" "#447484"
@@ -31,19 +31,19 @@ print_pal(sfe_pal("delsme"))
 ```
 <img src="images/delsme_palette.png" widht=30%/>
 
-Since the `get_pal()` function returns the colour palettes as a character vector they can easily be used in the graphics package of your choice. Here are examples in both base `R` and [`ggplot2`](https://ggplot2.tidyverse.org/).
+Since the `get_pal()` function returns the color palettes as a character vector they can easily be used in the graphics package of your choice. Here are examples in both base `R` and [`ggplot2`](https://ggplot2.tidyverse.org/).
 ```r
 # Base R implementation
 plot(mtcars$disp, mtcars$hp, col = sfe_pal("delsme")[factor(mtcars$carb)], pch = 19, cex = 3 )
 
 # ggplot2 implementation
 library(ggplot2)
-ggplot(mtcars, aes(disp, hp, colour = factor(carb))) +
+ggplot(mtcars, aes(disp, hp, color = factor(carb))) +
    geom_point(size = 3) +
-   scale_colour_manual(values = sfe_pal("delsme"))
+   scale_color_manual(values = sfe_pal("delsme"))
 ```
 
-## Colour palettes
+## Color palettes
 ***
 The data for the graphs shown below comes from the Palmerpenguins dataset. This dataset contains various measurments of 344 penguins from 3 different species of penguins, collected from 3 islands in the Palmer Archipelago, Antarctica. 
 
@@ -84,14 +84,19 @@ c("#6F7527", "#D0C56E", "#122006", "#AEB953","#3F2D0F","#9B9899")
 <img src="images/baslu.png" width=100%/>
 Image: A banana slug. Photo by Ben Stanfield.
 
-## Continuous colour palettes
+## Color palettes not based on images
 ***
-The colour palettes in this package are designed for discrete variables. However if your data is continuous and needs to be plotted as such (e.g. heatmaps) you can use the `colorRampPalette()` already part of your `R` installation to create a colour gradient.
-
-For example, if you would like to create a colour gradient between the 2nd and 3rd colours from the `delsme` palette you could do the following.
+Here are additional color palettes that are not based on images but have proven to be useful to show SFE related data
 ```r
-# Select 2nd and 3rd colours
-selected_colours <- sfe_pal("delsme")[c(2,3)]
-# Create a gradient of 100 colours between the selected colours
-colorRampPalette(selected_colours)(100)
+print_pal(sfe_pal("elpastel"))
 ```
+## Continuous color palettes
+***
+The color palettes in this package are designed for discrete variables. However if your data is continuous and needs to be plotted as such (e.g. heatmaps) you can use the `colorRampPalette()` already part of your `R` installation to create a color gradient.
+
+For example, if you would like to create a color gradient between the 2nd and 3rd colors from the `delsme` palette you could do the following.
+```r
+# Select 2nd and 3rd colors
+selected_colors <- sfe_pal("delsme")[c(2,3)]
+```
+<img src="images/elpastel_palette.png" width=50%/>
