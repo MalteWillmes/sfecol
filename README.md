@@ -102,4 +102,6 @@ For example, if you would like to create a color gradient between the 2nd and 3r
 ```r
 # Select 2nd and 3rd colors
 selected_colors <- sfe_pal("delsme")[c(2,3)]
+# Create a gradient of 100 colours between the selected colours
+colorRampPalette(selected_colors)(100)
 ```
