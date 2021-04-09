@@ -22,17 +22,19 @@ names(sfe_palettes)
 A helper function `sfe_pal()` returns the desited colour palette as a vector: For example:
 ```r
 sfe_pal("delsme")
-[1] "#304247" "#D1D0B3" "#828D6D" "#8DBA71" "#92A2AF"
+[1] "#304247" "#D1D0B3" "#828D6D" "#8DBA71" "#92A2AF" "#447484"
 ```
 There is also a helper function called `print_pal()` which displays the palette in the graphics window.
 ```r
 print_pal(sfe_pal("delsme"))
 ```
-<img src="images/delsme_palette.jpeg" width=50%/>
+<img src="images/delsme_palette.png" width=50%/>
 
 ## Colour palettes
 ***
-The data for the graphs shown below come from the California Department of Fish and Wildlife, California Central Valley Chinook Population Database Report (GrandTab 2020.05.22). This dataset includes returning Chinook Salmon from four different runs (spring, winter, fall, late-fall) to the Sacramento and San Joaquin watershed. Total return (escapement) estimates include both in-river and hatchery fish. 
+The data for the graphs shown below comes from the Palmerpenguins dataset. This dataset contains various measurments of 344 penguins from 3 different species of penguins, collected from 3 islands in the Palmer Archipelago, Antarctica. 
+
+Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. R package version 0.1.0. https://allisonhorst.github.io/palmerpenguins/. doi: 10.5281/zenodo.3960218.
 
 ### delsme - *Hypomesus transpacificus* - Delta Smelt
 ```r
