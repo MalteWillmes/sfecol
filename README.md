@@ -88,7 +88,7 @@ Image: A banana slug. Photo by Ben Stanfield.
 ***
 The colour palettes in this package are designed for discrete variables. However if your data is continuous and needs to be plotted as such (e.g. heatmaps) you can use the `colorRampPalette()` already part of your `R` installation to create a colour gradient.
 
-For example, if you would like to create a colour gradient between the 2nd and 3rd colours from the `Kotare` palette you could do the following.
+For example, if you would like to create a colour gradient between the 2nd and 3rd colours from the `delsme` palette you could do the following.
 ```r
 # Select 2nd and 3rd colours
 selected_colours <- sfe_pal("delsme")[c(2,3)]
