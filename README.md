@@ -90,6 +90,8 @@ Here are additional color palettes that are not based on images but have proven 
 ```r
 print_pal(sfe_pal("elpastel"))
 ```
+<img src="images/elpastel_palette.png" width=50%/>
+
 ## Continuous color palettes
 ***
 The color palettes in this package are designed for discrete variables. However if your data is continuous and needs to be plotted as such (e.g. heatmaps) you can use the `colorRampPalette()` already part of your `R` installation to create a color gradient.
@@ -99,4 +101,3 @@ For example, if you would like to create a color gradient between the 2nd and 3r
 # Select 2nd and 3rd colors
 selected_colors <- sfe_pal("delsme")[c(2,3)]
 ```
-<img src="images/elpastel_palette.png" width=50%/>
