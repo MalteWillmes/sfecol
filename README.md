@@ -28,7 +28,7 @@ There is also a helper function called `print_pal()` which displays the palette 
 ```r
 print_pal(sfe_pal("delsme"))
 ```
-<img src="images/delsme_palette.png" width=50%/>
+<img src="images/delsme_palette.png" height=50%/>
 
 Since the `get_pal()` function returns the colour palettes as a character vector they can easily be used in the graphics package of your choice. Here are examples in both base `R` and [`ggplot2`](https://ggplot2.tidyverse.org/).
 ```r
@@ -39,7 +39,8 @@ plot(mtcars$disp, mtcars$hp, col = sfe_pal("delsme")[factor(mtcars$carb)], pch =
 library(ggplot2)
 ggplot(mtcars, aes(disp, hp, colour = factor(carb))) +
    geom_point(size = 3) +
-   scale_colour_manual(values = sfe_pal("delsme))
+   scale_colour_manual(values = sfe_pal("delsme"))
+```
 
 ## Colour palettes
 ***
