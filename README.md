@@ -17,7 +17,7 @@ The color palettes are stored as a list named `sfe_palettes`. Thus you can see a
 ```r
 library(sfecol)
 names(sfe_palettes)
-[1] "delsme" "chinook" "chinookcarc" "southbay" "baslu"   
+[1] "delsme" "chinook" "chinookcarc" "southbay" "baslu" "elpastel"   
 ```
 
 A helper function `sfe_pal()` returns the desited color palette as a vector: For example:
