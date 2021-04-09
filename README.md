@@ -1,6 +1,7 @@
 # sfecol - Colors of the San Francisco Estuary
 ***
-The San Francisco Estuary is a complex watershed and home to many different species of wildlife. This `R` package uses images of the landscape and wildlife to create color palettes. Colors are extracted from images using https://colordesigner.io/color-palette-from-image and the package follows the excellent work of the [`Manu`](https://g-thomson.github.io/Manu) and [`wesanderson`](https://github.com/karthik/wesanderson) packages.
+The San Francisco Estuary is a complex watershed and home to many different species of wildlife. This `R` package uses images of the landscape and wildlife to create color palettes. Colors are extracted from images using https://colordesigner.io/color-palette-from-image. 
+This package closely imitates the excellent work of the [`Manu`](https://g-thomson.github.io/Manu) and [`wesanderson`](https://github.com/karthik/wesanderson) packages.
  
 ## Installation
 ***
@@ -82,3 +83,15 @@ c("#6F7527", "#D0C56E", "#122006", "#AEB953","#3F2D0F","#9B9899")
 ```
 <img src="images/baslu.png" width=100%/>
 Image: A banana slug. Photo by Ben Stanfield.
+
+## Continuous colour palettes
+***
+The colour palettes in this package are designed for discrete variables. However if your data is continuous and needs to be plotted as such (e.g. heatmaps) you can use the `colorRampPalette()` already part of your `R` installation to create a colour gradient.
+
+For example, if you would like to create a colour gradient between the 2nd and 3rd colours from the `Kotare` palette you could do the following.
+```r
+# Select 2nd and 3rd colours
+selected_colours <- sfe_pal("delsme")[c(2,3)]
+# Create a gradient of 100 colours between the selected colours
+colorRampPalette(selected_colours)(100)
+```
