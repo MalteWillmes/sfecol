@@ -87,9 +87,15 @@ Image: A banana slug. Photo by Ben Stanfield.
 ## Color palettes not based on images
 ***
 Here are additional color palettes that are not based on images but have proven to be useful to show SFE related data
+
+### elpastel - pastel color schema for discrete data
 ```r
+sfe_pal("elpastel")
+[1] "#4E79A7" "#F28E2B" "#E15759" "#76B7B2" "#59A14F" "#EDC948" "#B07AA1" "#FF9DA7" "#9C755F" "#BAB0AC"
 print_pal(sfe_pal("elpastel"))
 ```
+<img src="images/elpastel_palette.png" width=50%/>
+
 ## Continuous color palettes
 ***
 The color palettes in this package are designed for discrete variables. However if your data is continuous and needs to be plotted as such (e.g. heatmaps) you can use the `colorRampPalette()` already part of your `R` installation to create a color gradient.
@@ -98,5 +104,6 @@ For example, if you would like to create a color gradient between the 2nd and 3r
 ```r
 # Select 2nd and 3rd colors
 selected_colors <- sfe_pal("delsme")[c(2,3)]
+# Create a gradient of 100 colours between the selected colours
+colorRampPalette(selected_colors)(100)
 ```
-<img src="images/elpastel_palette.png" width=50%/>
