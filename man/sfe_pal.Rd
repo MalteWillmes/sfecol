@@ -8,7 +8,7 @@ sfe_pal(name)
 }
 \arguments{
 \item{name}{Name of desired palette. Choices are: \code{delsme}, \code{chinook},  \code{chinookcarc}, \code{southbay},
-\code{baslu},\code{petaluma}, \code{elpastel}}
+\code{baslu},\code{petaluma}, \code{napa},\code{elpastel}}
 }
 \value{
 A vector of colors.
@@ -21,8 +21,9 @@ sfe_pal("delsme")
 sfe_pal("chinook")
 sfe_pal("chinookcarc")
 sfe_pal("southbay")
-sfe_pal("baslu")
 sfe_pal("petaluma")
+sfe_pal("napa")
+sfe_pal("baslu")
 sfe_pal("elpastel")
 
 }

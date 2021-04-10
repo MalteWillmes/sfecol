@@ -6,13 +6,14 @@
 #'
 #' @export
 sfe_palettes <- list(
-  delsme = c("#304247", "#D1D0B3", "#828D6D", "#8DBA71", "#92A2AF","#447484"),
-  chinook = c("#899FBF", "#243158", "#543D4A", "#D8D9E4", "#715E4D", "#C0D5F0"),
-  chinookcarc=  c("#CDC9C0", "#2B2F2A", "#837C32", "#727877", "#634933", "#A89C6B"),
-  southbay =  c("#727467", "#97CFCB", "#D5A54C", "#1F2F3D", "#801F23", "#633F47"),
-  baslu =  c("#6F7527", "#D0C56E", "#122006", "#AEB953","#3F2D0F","#9B9899"),
+  delsme= c("#304247", "#D1D0B3", "#828D6D", "#8DBA71", "#92A2AF","#447484"),
+  chinook= c("#899FBF", "#243158", "#543D4A", "#D8D9E4", "#715E4D", "#C0D5F0"),
+  chinookcarc= c("#CDC9C0", "#2B2F2A", "#837C32", "#727877", "#634933", "#A89C6B"),
+  southbay= c("#727467", "#97CFCB", "#D5A54C", "#1F2F3D", "#801F23", "#633F47"),
+  baslu= c("#6F7527", "#D0C56E", "#122006", "#AEB953","#3F2D0F","#9B9899"),
   petaluma= c("#DFDCD0","#37322A","#94908B","#7A6863","#857C6C","#6C7C7E"),
-  elpastel =c('#4E79A7', '#F28E2B','#E15759','#76B7B2','#59A14F','#EDC948','#B07AA1','#FF9DA7','#9C755F','#BAB0AC')
+  napa=c("#D6C8B9","#181618","#8F959A","#73615D","#A64F40","#4F575B"),
+  elpastel= c('#4E79A7', '#F28E2B','#E15759','#76B7B2','#59A14F','#EDC948','#B07AA1','#FF9DA7','#9C755F','#BAB0AC')
 )
 
 
@@ -22,7 +23,7 @@ sfe_palettes <- list(
 #' This function returns color palettes derived from photos of the San Francisco Estuary.
 #'
 #' @param name Name of desired palette. Choices are: \code{delsme}, \code{chinook},  \code{chinookcarc}, \code{southbay},
-#' \code{baslu},\code{petaluma}, \code{elpastel}
+#' \code{baslu},\code{petaluma}, \code{napa},\code{elpastel}
 #'
 #' @return A vector of colors.
 #' @export
@@ -31,8 +32,9 @@ sfe_palettes <- list(
 #' sfe_pal("chinook")
 #' sfe_pal("chinookcarc")
 #' sfe_pal("southbay")
-#' sfe_pal("baslu")
 #' sfe_pal("petaluma")
+#' sfe_pal("napa")
+#' sfe_pal("baslu")
 #' sfe_pal("elpastel")
 #'
 sfe_pal <- function(name) {
