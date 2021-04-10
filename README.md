@@ -77,6 +77,14 @@ c("#727467", "#97CFCB", "#D5A54C", "#1F2F3D", "#801F23", "#633F47")
 <img src="images/southbay.png" width=100%/>
 Image: Bird's-eye view of the multi-colored salt ponds, Photo by Doc Searls from Santa Barbara, USA. 
 
+
+### petaluma  - Petaluma River
+```r
+c("#DFDCD0" "#37322A" "#94908B" "#7A6863" "#857C6C" "#6C7C7E")
+```
+<img src="images/petaluma.png" width=100%/>
+Image: Survey boat on the Petaluma River. Photo by Malte Willmes
+
 ### baslu - *Ariolimax columbianus* - Banana slug
 ```r
 c("#6F7527", "#D0C56E", "#122006", "#AEB953","#3F2D0F","#9B9899")
