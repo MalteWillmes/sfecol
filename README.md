@@ -83,7 +83,14 @@ Image: Bird's-eye view of the multi-colored salt ponds, Photo by Doc Searls fr
 c("#DFDCD0" "#37322A" "#94908B" "#7A6863" "#857C6C" "#6C7C7E")
 ```
 <img src="images/petaluma.png" width=100%/>
-Image: Survey boat on the Petaluma River. Photo by Malte Willmes
+Image: Survey boat on the Petaluma River. Photo by Malte Willmes.
+
+### napa  - Napa River
+```r
+c("#D6C8B9" "#181618" "#8F959A" "#73615D" "#A64F40" "#4F575B")
+```
+<img src="images/napa.png" width=100%/>
+Image: Early morning on the Napa River. Photo by Malte Willmes.
 
 ### baslu - *Ariolimax columbianus* - Banana slug
 ```r
