@@ -5,7 +5,7 @@
 \alias{sfe_palettes}
 \title{Color palettes based on the San Francisco Estuary.}
 \format{
-An object of class \code{list} of length 6.
+An object of class \code{list} of length 7.
 }
 \usage{
 sfe_palettes
