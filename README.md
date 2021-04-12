@@ -111,7 +111,7 @@ print_pal(sfe_pal("elpastel"))
 ```
 <img src="images/elpastel_palette.png" width=50%/>
 
-### delsmelife - color schema from Hobbs et al., 2019: Complex life histories discovered in a critically endangered fish
+### delsmelife - color schema from Hobbs et al., 2019
 ```r
 sfe_pal("delsmelife")
 [1] "#8FBC8F" "#A020F0" "#FEF0D9" "#FDCC8A" "#FC8D59" "#D7301F"
