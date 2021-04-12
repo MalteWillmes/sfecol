@@ -55,8 +55,9 @@ sfe_pal <- function(name) {
 #' @importFrom graphics par image
 print_pal <- function(x, ...) {
   n <- length(x)
-  old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
-  on.exit(par(old))
+  user_par = par(no.readonly = T)
+  par(mfrow = c(1,1), mar = c(rep(0.5,4)), oma =c(rep(0,4)))
+  on.exit(par(user_par))
 
   image(1:n, 1, as.matrix(1:n), col = x,
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
