@@ -176,6 +176,14 @@
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print_pal</span>(<span class="fu">sfe_pal</span>(<span class="st">"elpastel"</span>))</span></code></pre></div>
 <p><img src="images/elpastel_palette.png" width="50%/"></p>
 </div>
+<div id="delsmelife---color-schema-from-hobbs-et-al-2019-complex-life-histories-discovered-in-a-critically-endangered-fish" class="section level3">
+<h3 class="hasAnchor">
+<a href="#delsmelife---color-schema-from-hobbs-et-al-2019-complex-life-histories-discovered-in-a-critically-endangered-fish" class="anchor"></a>delsmelife - color schema from Hobbs et al., 2019: Complex life histories discovered in a critically endangered fish</h3>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sfe_pal</span>(<span class="st">"delsmelife"</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>] <span class="st">"#8FBC8F"</span> <span class="st">"#A020F0"</span> <span class="st">"#FEF0D9"</span> <span class="st">"#FDCC8A"</span> <span class="st">"#FC8D59"</span> <span class="st">"#D7301F"</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="fu">print_pal</span>(<span class="fu">sfe_pal</span>(<span class="st">"delsmelife"</span>))</span></code></pre></div>
+<p><img src="images/delsmelife_palette.png" width="50%/"></p>
+</div>
 </div>
 <div id="continuous-color-palettes" class="section level2">
 <h2 class="hasAnchor">
@@ -183,7 +191,7 @@
 <hr>
 <p>The color palettes in this package are designed for discrete variables. However if your data is continuous and needs to be plotted as such (e.g. heatmaps) you can use the <code><a href="https://rdrr.io/r/grDevices/colorRamp.html">colorRampPalette()</a></code> already part of your <code>R</code> installation to create a color gradient.</p>
 <p>For example, if you would like to create a color gradient between the 2nd and 3rd colors from the <code>delsme</code> palette you could do the following.</p>
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># Select 2nd and 3rd colors</span>
 <span class="va">selected_colors</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/sfe_pal.html">sfe_pal</a></span><span class="op">(</span><span class="st">"delsme"</span><span class="op">)</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">2</span>,<span class="fl">3</span><span class="op">)</span><span class="op">]</span>
 <span class="co"># Create a gradient of 100 colours between the selected colours</span>
