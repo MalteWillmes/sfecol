@@ -13,7 +13,8 @@ sfe_palettes <- list(
   baslu= c("#6F7527", "#D0C56E", "#122006", "#AEB953","#3F2D0F","#9B9899"),
   petaluma= c("#DFDCD0","#37322A","#94908B","#7A6863","#857C6C","#6C7C7E"),
   napa=c("#D6C8B9","#181618","#8F959A","#73615D","#A64F40","#4F575B"),
-  elpastel= c('#4E79A7', '#F28E2B','#E15759','#76B7B2','#59A14F','#EDC948','#B07AA1','#FF9DA7','#9C755F','#BAB0AC')
+  elpastel= c('#4E79A7', '#F28E2B','#E15759','#76B7B2','#59A14F','#EDC948','#B07AA1','#FF9DA7','#9C755F','#BAB0AC'),
+  delsmelife =c("#8FBC8F","#A020F0", "#FEF0D9", "#FDCC8A" ,"#FC8D59" ,"#D7301F")
 )
 
 
@@ -23,7 +24,7 @@ sfe_palettes <- list(
 #' This function returns color palettes derived from photos of the San Francisco Estuary.
 #'
 #' @param name Name of desired palette. Choices are: \code{delsme}, \code{chinook},  \code{chinookcarc}, \code{southbay},
-#' \code{baslu},\code{petaluma}, \code{napa},\code{elpastel}
+#' \code{baslu},\code{petaluma}, \code{napa},\code{elpastel}, \code{delsmelife}
 #'
 #' @return A vector of colors.
 #' @export
@@ -36,6 +37,7 @@ sfe_palettes <- list(
 #' sfe_pal("napa")
 #' sfe_pal("baslu")
 #' sfe_pal("elpastel")
+#' sfe_pal("delsmelife")
 #'
 sfe_pal <- function(name) {
 
