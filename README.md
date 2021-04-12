@@ -111,6 +111,14 @@ print_pal(sfe_pal("elpastel"))
 ```
 <img src="images/elpastel_palette.png" width=50%/>
 
+### delsmelife - color schema from Hobbs et al., 2019: Complex life histories discovered in a critically endangered fish
+```r
+sfe_pal("delsmelife")
+[1] "#8FBC8F" "#A020F0" "#FEF0D9" "#FDCC8A" "#FC8D59" "#D7301F"
+print_pal(sfe_pal("delsmelife"))
+```
+<img src="images/delsmelife_palette.png" width=50%/>
+
 ## Continuous color palettes
 ***
 The color palettes in this package are designed for discrete variables. However if your data is continuous and needs to be plotted as such (e.g. heatmaps) you can use the `colorRampPalette()` already part of your `R` installation to create a color gradient.
